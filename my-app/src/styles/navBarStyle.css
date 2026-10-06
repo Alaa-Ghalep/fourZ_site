@@ -1,0 +1,156 @@
+.font-color{
+    color:#EDA233;
+    }
+    p{
+    color:rgb(210, 210, 210);}
+    #parent{
+    position:absolute;
+    right:0;
+    z-index:999;
+    cursor:pointer;
+    outline:none;
+    }
+    .bread{
+    background-color:gold;
+    transition:0.2s;
+    margin:10px  0;
+    }
+    
+    nav{
+    opacity:0;
+    visibility:hidden;
+    width:100%;
+    height:100%;
+    z-index:999;background:black;
+    transition-duration:0.5s;
+    backface-visibility:none;
+    
+    
+      transition: opacity 0.5s, visibility 0.5s;
+    }
+    
+    .menu {
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      background-color:#181818;
+    }
+    
+    .menu ul ,tran{
+      transform: translateY(0%);
+      transition: all 0.5s;
+    }
+     ul {
+      list-style: none;
+    
+    }
+    
+    ul li, .tran{
+        transform: scaleY(0);
+        transform-origin: bottom;
+        opacity: 0;
+        transition: all .5s linear;
+        }
+    
+    .open ul li ,.open .tran{
+        transform: scaleY(1);
+        opacity: 1;
+    }
+    
+    
+     ul li a {
+      display: block;
+      color: #EDA233;
+      text-decoration: none;
+      transition: color 0.2s;
+      padding: 10px 0;
+        font-size: 33px;
+    }
+    .alaa{
+      padding: 10px 0;
+      
+    }
+     ul li a:hover {
+      color: #ff8702;
+    }
+    
+     ul li:hover {
+      color:hsl(0,0%,90%);
+    }
+    
+    
+    .open{
+    visibility:visible;
+    opacity:1;
+    }
+    
+    .open:before {
+      content: "";
+      background-color: #3c3c3c;
+    
+      display: block;
+      border-radius: 2px;
+      position: relative;
+      top: -8px;
+      transform: rotate(0deg);
+      transition: all 0.3s ease;
+    }
+    
+    .open:after {
+      content: "";
+      background-color: #3c3c3c;
+      display: block;
+      border-radius: 2px;
+      position: relative;
+      top: 4px;
+      transform: rotate(0deg);
+      transition: all 0.3s ease;
+    }
+    
+    .trans{
+      transform: translateY(-30%);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .circular-progress{
+    position:relative;
+    height:250px;
+    width:250px;
+    background-color:#EDA233;
+    border-radius:50%;
+    background:conic-gradient(#7d2aeb 3.6deg,#ededed 0deg);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+    }
+    .alaa2{
+        content:"";
+        position:absolute;
+        height:240px;
+        width:240px;
+        border-radius:50%;
+        background-color:#181818;
+    
+    }
+    
+    .progress-value{
+    position:relative;
+    }
+    
+    
+    
+    
+    

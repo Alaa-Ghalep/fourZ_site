@@ -1,0 +1,214 @@
+*{padding:0;margin:0;box-sizing:border-box;}
+/* body{background-color:#181818;color: #fff;} */
+body{
+  background-color: #0A0A0A;
+}
+#btn-header:focus{outline:none;}
+.parent{background-color:"#181818";
+}
+.font-color{color:#EDA233;}
+.font-color-gray{color:#888888;}
+.rotated{ transform: rotate(45deg); }
+.form-control{outline:0;border-width : 0 0 2px #FFFFFF; 
+  /*
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  */
+  }
+/* 
+  .border-bottom-text{
+    content:'';
+    border-bottom-style: solid;
+    border-bottom-width:2px;
+    
+  } */
+
+
+  .textarea{height:2vw !important;}
+.img_service{width: 520px;}
+    .circle{
+
+      width:6px;
+      height:6px;
+      border-radius:50%;
+      background-color:rgba(217, 217, 217, 0.5);
+      margin:0px 14px;}
+.img-arrow1,.img-arrow2{position:absolute;}
+/* .img-arrow1{top:;left:;}
+.img-arrow2{bottom:;right:;} */
+
+.btn-show{
+  border-radius:100px;
+  color:#EDA233 !important;
+  background-color:#ffffff !important;
+}
+  
+.btn-sm-square {
+ background-color:#EDA233;
+    width: 47px;
+    height: 46px;
+}
+
+.txt-uppercase{text-transform:uppercase; }
+.container-background{background: #111111;}
+
+
+.img-size{width: 58px;height: 58px;}
+/* 
+//index.css
+
+// global or index.css */
+/* @layer components {
+  .nav-li {
+    @apply flex w-full leading-8 list-none focus:outline-none group py-2 tracking-normal opacity-50 hover:opacity-100 transition-all duration-200 ease-in-out;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply h-full w-full py-2 text-lg text-white;
+  }
+} */
+
+
+/* ////////// loading
+ */
+ .border-right{border-right: 2px solid #EDA233;}
+ .img-mobile{width: 55vw;}
+
+ .skill{
+  width:160px;
+  height:160px;
+ position: relative;
+
+ }
+ .outer{
+  width:160px;
+  height:160px;
+  border-radius:50%;
+  border:1px solid red;
+  padding:20px;
+  box-shadow:6px 6px 10px -1px  rgba(0,0,0,0.15),
+  -6px -6px 10px -1px  rgba(255,255,255,0.7)
+
+}
+
+.inner{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  border:1px solid red;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+#number{
+  font-weight:600px;
+  color:#555;
+}
+circle{
+  fill:none;
+ stroke:url(#GradientColor);
+
+ stroke-width:20px;
+ stroke-dasharray:472;
+ stroke-dashoffset: 472;;
+ animation:anim 2s linear forwards
+}
+svg{
+  position:absolute;
+  top:0;
+  left:0;
+}
+@keyframes anim {
+  100%{
+    /* stroke-dashoffest:0; */
+    stroke-dashoffest:165;
+
+  }
+  
+}
+
+img:hover{cursor: pointer;}
+
+.index{
+  background-color: #181818 ;
+  color: #FFFFFF;
+}
+.background-gradient{
+
+background: rgb(55,53,53);
+background: linear-gradient(153deg, rgba(55,53,53,0.23573179271708689) 0%, rgba(170,169,169,0.6418942577030813) 100%);
+
+background: rgb(55,53,53);
+background: linear-gradient(153deg, rgba(55,53,53,0.3701855742296919) 0%, rgba(170,169,169,0.6418942577030813) 100%);
+
+
+
+background: rgb(55,53,53);
+background: linear-gradient(153deg, rgba(55,53,53,0.3701855742296919) 6%, rgba(170,169,169,0.6418942577030813) 90%);
+
+
+background: rgb(55,53,53);
+background: linear-gradient(153deg, rgba(55,53,53,0.3701855742296919) 21%, rgba(170,169,169,0.7175245098039216) 90%);
+
+background: rgb(29,29,29);
+background: linear-gradient(159deg, rgba(29,29,29,1) 0%, rgba(164,163,159,1) 100%);
+
+background: rgb(29,29,29);
+background: linear-gradient(159deg, rgba(29,29,29,0.7847514005602241) 0%, rgba(164,163,159,0.6138830532212884) 100%);
+
+
+background: rgb(29,29,29);
+background: linear-gradient(157deg, rgba(29,29,29,0.14329481792717091) 0%, rgba(164,163,159,0.6502976190476191) 100%);
+
+
+
+
+
+
+
+
+
+
+
+}
+.background-gradient-x{
+  background: rgb(29,29,29);
+background: linear-gradient(86deg, rgba(29,29,29,0.14329481792717091) 0%, rgba(164,163,159,0.6502976190476191) 68%);
+}
+
+.btn-show{
+  border-radius:160px;
+  color:#EDA233 !important;
+  background-color:#ffffff !important;
+  box-shadow: none;
+  outline: 0;
+  border: none;
+}
+.margin-bottom{
+margin-bottom: 4vw;
+}
+.margin-bottom2{
+margin-bottom: 9vw;
+
+}
+.img-work{width: 60vw;}
+
+
+  p{
+    color: rgba(234, 240, 246, 0.8);
+  }
+    #icons a{background-color: #EDA233;}
+    #icons a img{width: 20px;height: 20px;}
+ 
+
+
+
+
+
+
+
+
+
+    

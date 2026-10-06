@@ -1,0 +1,41 @@
+.input,.input:focus, .textarea ,.textarea:focus{
+  transition: .3s ease !important;
+  padding:  10px !important;
+  border:0 !important;
+  outline:0 !important;
+  border-bottom:  1px solid #FFFFFF !important;
+  border-radius : 2px !important;
+  -moz-border-radius : 2px !important;
+  -webkit-border-radius : 2px !important;
+  font-size: 16px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  box-sizing: border-box !important;
+  background-color:transparent !important;
+  color:#FFFFFF !important;
+  }
+::placeholder {
+  color: #FFFFFF !important;
+}
+#textarea {
+  height:140px !important;
+  padding:5px !important;
+  }
+.textarea ,.textarea:focus{
+height:140px !important;
+padding:5px !important;
+}
+/* .btn-send{background-color: #EDA233 !important;} */
+.btn-send{
+  border-radius:100px;
+  color:#EDA233 !important;
+  background-color:#ffffff !important;
+}
+.div-btn{
+background-color:#EDA233 !important;
+/* <!-->
+display:flex;
+justify-content:center;
+align-items:center;
+<!--> */
+}
